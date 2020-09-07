@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+
+<div class="row">
+    @Html.TextBox("myTextBox", "Lütfen barkodu okutunuz", new { @class = "form-control" })
+   
+
+        <input type="submit" value="Bana Tıkla" onclick="location.href='@Url.Action("Deneme", "Home" , new {Barkod= "fjdsıofhj"})'">
+
+</div>
+
